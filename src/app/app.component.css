@@ -1,0 +1,115 @@
+.user-form{
+   padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+    margin-top: 40px;
+
+}
+
+.fields {
+  width: 100%;
+  padding: 75px 5px 5px 5px;
+}
+.fields input {
+  border: none;
+  outline:none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding:20px 10px 20px 5px;
+}
+.name, .email, .phone-number, .address {
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+              inset -8px -8px 8px #ffffff;
+}
+
+
+.register-button {
+    width: 140px;
+  outline: none;
+  border:none;
+  cursor: pointer;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  text-align: center;
+  background: #24cfaa;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.register-button:hover {
+  background:#2fdbb6;
+}
+.register-button:active {
+  background:#1da88a;
+}
+  
+
+
+.user-display-card{
+  height: fit-content;
+
+     padding: 20px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  /* background: #656565; */
+
+  box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+    margin-top: 40px;
+    width: 418px;
+    align-items: center;
+}
+.userNameTag{
+    margin-bottom: 0px !important;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+
+.full-text{
+    display: none;
+    width: 100%;
+}
+
+.loop-card:hover .full-text{
+    display: block;
+}
+
+.card-content-one{
+        width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-content-two{
+        flex-direction: row;
+    justify-content: space-between;
+}
+
+.user-container{
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.loop-card{
+  width: 100%;
+}
+
+
+.close-btn {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
